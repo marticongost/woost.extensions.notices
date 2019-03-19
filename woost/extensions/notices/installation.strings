@@ -1,0 +1,10 @@
+
+[woost.extensions.notices]
+
+    [blocks]
+
+        [title]
+        ca: Avisos
+        es: Avisos
+        en: Notices
+

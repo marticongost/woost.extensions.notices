@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?py
+from woost import app
+?>
+
+<py:woost.views.BlockList
+    xmlns="http://www.w3.org/1999/xhtml"
+    xmlns:py="http://www.whads.com/ns/cocktail/templates"
+    py:container="woost.extensions.notices.blocks">
+
+    <?py-class
+    hide_if_empty = True
+    ?>
+
+    <?resource woost.extensions.notices://scripts/noticesbox.js ?>
+
+    <button
+        py:id="close_notice_button"
+        py:client_model=".close_notice_button"
+        type="button"
+        title="${view_translations('close_notice_button')}">
+        ✖
+    </button>
+
+</py:woost.views.BlockList>
+

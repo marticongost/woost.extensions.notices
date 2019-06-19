@@ -1,4 +1,3 @@
-#-*- coding: utf-8 -*-
 """
 
 .. moduleauthor:: Martí Congost <marti.congost@whads.com>
@@ -8,7 +7,9 @@ from setuptools import setup
 setup(
     name = "woost.extensions.notices",
     version = "0.0b1",
-    description = "notices extension for the Woost CMS.",
+    description =
+        "An extension for the Woost CMS to show closable messages "
+        "to site users.",
     classifiers = [
         "Development Status :: 3 - Alpha",
         "Environment :: Web Environment",

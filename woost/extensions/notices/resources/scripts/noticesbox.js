@@ -47,7 +47,7 @@ if (window.localStorage && window.JSON) {
         }
 
         $noticesBox.children(".block").each(function () {
-            var $button = jQuery(cocktail.instantiate("woost.extensions.notices.NoticesBox.close_notice_button"))
+            var $button = jQuery(cocktail.instantiate("woost.extensions.notices.NoticesBox.closeNoticeButton"))
                 .appendTo(this)
                 .click(function () {
                     var notice = jQuery(this).closest(".block").get(0);

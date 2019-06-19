@@ -1,4 +1,3 @@
-#-*- coding: utf-8 -*-
 """
 
 .. moduleauthor:: Martí Congost <marti.congost@whads.com>
@@ -13,7 +12,7 @@ def install():
 
     assets.require(
         BlocksCatalog,
-        "blocks",
+        "blocks_catalog",
         title = assets.TRANSLATIONS
     )
 

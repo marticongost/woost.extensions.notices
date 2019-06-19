@@ -6,7 +6,7 @@ from woost import app
 <py:woost.views.BlockList
     xmlns="http://www.w3.org/1999/xhtml"
     xmlns:py="http://www.whads.com/ns/cocktail/templates"
-    py:container="woost.extensions.notices.blocks">
+    py:container="woost.extensions.notices.blocks_catalog">
 
     <?py-class
     hide_if_empty = True
@@ -16,9 +16,9 @@ from woost import app
 
     <button
         py:id="close_notice_button"
-        py:client_model=".close_notice_button"
+        py:client_model="woost.extensions.notices.NoticesBox.closeNoticeButton"
         type="button"
-        title="${view_translations('close_notice_button')}">
+        title="${translations('woost.extensions.notices.NoticesBox.close_notice_button')}">
         ✖
     </button>
 

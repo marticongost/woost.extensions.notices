@@ -1,7 +1,7 @@
 
 [woost.extensions.notices]
 
-    [blocks]
+    [blocks_catalog]
 
         [title]
         ca: Avisos

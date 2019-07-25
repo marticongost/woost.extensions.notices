@@ -1,7 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?py
-from woost import app
-?>
 
 <py:woost.views.BlockList
     xmlns="http://www.w3.org/1999/xhtml"
@@ -18,7 +15,7 @@ from woost import app
         py:id="close_notice_button"
         py:client_model="woost.extensions.notices.NoticesBox.closeNoticeButton"
         type="button"
-        title="${translations('woost.extensions.notices.NoticesBox.close_notice_button')}">
+        title="${view_translations('close_notice_button')}">
         ✖
     </button>
 
